@@ -1,0 +1,10 @@
+sources: 
+  - name: public
+    description: "EDNA src data for DBT specific lookups"
+    database: SNOWFLAKE_LEARNING_DB
+    schema: PUBLIC
+    tables:
+      - name: DIM_SCHOOL
+      - name: DIM_WORKFORCE
+      - name: LOOKER_USER_GROUP
+      - name: OKTA_USER
